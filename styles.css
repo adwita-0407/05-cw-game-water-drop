@@ -30,7 +30,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Proxima Nova;
 }
 
 .game-wrapper {
@@ -46,7 +46,7 @@ body {
     align-items: center;
     width: 800px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #fff7e1;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -60,8 +60,8 @@ body {
 #game-container {
     width: 800px;
     height: 600px;
-    background-color: #e6f7ff;
-    border: 2px solid #333;
+    background-color: #cbccd1;
+    border: 2px solid #1a1a1a;
     border-radius: 8px;
     position: relative;
     overflow: hidden;
@@ -70,8 +70,8 @@ body {
 
 #start-btn {
     padding: 8px 16px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #bf6c46;
+    color: #fff7e1;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -92,7 +92,7 @@ body {
     position: absolute;
     width: 60px;  /* increased from 40px */
     height: 60px; /* increased from 40px */
-    background-color: #0099ff;
+    background-color: #003366;
     border-radius: 50%;
     animation: dropFall linear forwards;
     transform-origin: center;
@@ -107,11 +107,11 @@ body {
 }
 
 .bad-drop {
-    background-color: #ff4444;
+    background-color: #bf6c46;
 }
 
 .game-title {
-    color: #131313;
+    color: #1a1a1a;
     font-size: 48px;
     margin-top: 0;
     margin-bottom: 5px;  /* reduced from 20px */
