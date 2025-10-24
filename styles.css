@@ -125,6 +125,39 @@ body {
     text-align: center;
 }
 
+/* Title row: icons on either side of the game title */
+.title-row {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.title-icon {
+    max-height: 64px;
+    width: auto;
+    display: inline-block;
+}
+
+.title-icon.left {
+    margin-right: 8px;
+}
+
+.title-icon.right {
+    margin-left: 8px;
+}
+
+/* Keep a small responsive size on smaller viewports */
+@media (max-width: 850px) {
+    .title-row, .branding {
+        width: 95vw;
+    }
+    .title-icon {
+        max-height: 44px;
+    }
+}
+
 @keyframes dropFall {
     from {
         transform: translateY(-20px);
@@ -141,5 +174,30 @@ body {
     
     #game-container {
         height: 70vh;
+    }
+}
+
+/* Footer horizontal logo placed below the game container */
+.footer-logo {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 64px;
+    display: block;
+}
+
+@media (max-width: 850px) {
+    .footer-logo {
+        width: 95vw;
+    }
+    .footer-logo img {
+        max-height: 44px;
     }
 }

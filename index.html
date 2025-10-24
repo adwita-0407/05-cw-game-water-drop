@@ -8,7 +8,12 @@
 </head>
 <body>
     <div class="game-wrapper">
-        <h1 class="game-title">Water Drop</h1>
+        <!-- Title with icons on either side -->
+        <div class="title-row">
+            <img src="img/water-can.png" alt="Water can" class="title-icon left" />
+            <h1 class="game-title">Water Drop</h1>
+            <img src="img/cw_logo.png" alt="Charity Water logo" class="title-icon right" />
+        </div>
         <p class="game-tagline">Catch the good drops, avoid the bad ones!</p>
         <div class="score-panel">
             <div class="score">Score: <span id="score">0</span></div>
@@ -17,6 +22,11 @@
         </div>
         
         <div id="game-container">
+        </div>
+
+        <!-- Horizontal Charity Water logo below the game container -->
+        <div class="footer-logo" aria-hidden="false">
+            <img src="img/cw_logo-horizontal.png" alt="Charity: water" />
         </div>
     </div>
     
